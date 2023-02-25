@@ -1,0 +1,64 @@
+#full-page{
+    height: 700px;
+    width: 100%;
+    border: 1px solid red;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    border: 1px solid red;
+    background-color: #181818;
+}
+.nav-left{
+    display: flex;
+    justify-content: space-between;
+}
+.img>img{
+    /* margin-left:-75%; */
+    margin-top: 25px;
+    height: 35px;
+    width: 80%;
+    margin-left: 35px;
+}
+.home{
+    display: flex;
+    color: white;
+    margin-right:30%;
+}
+.home >h2{
+    margin-left: 40px;
+    margin-top: 32px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.nav-right{
+    display: flex;
+    margin-top: -3.4%;
+    margin-right: 3%;
+    margin-left: 80%;
+}
+.nav-right button{
+    height: 48px;
+    width: 70%;
+    border-radius: 15px;
+    margin-top: -7px;
+    background-color: #1058fc;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.nav-right >label {
+    margin-right: 10px;
+    font-size: 16px;
+    color: white;
+    margin-top: -10px;
+    font-weight: 500;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.nav-right button:hover{
+    background-color: RGB(14 242 15);
+}
